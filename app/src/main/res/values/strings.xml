@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AWS</string>
+
+    <!--  Dashboard String  -->
+    <string name="take_assessment">Take Assessment</string>
+    <string name="show_question">Show Questions</string>
+</resources>
