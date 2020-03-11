@@ -4,4 +4,9 @@
     <!--  Dashboard String  -->
     <string name="take_assessment">Take Assessment</string>
     <string name="show_question">Show Questions</string>
+    <string name="popular_category">Our popular category</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
