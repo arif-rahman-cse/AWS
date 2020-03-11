@@ -1,12 +1,24 @@
 <resources>
-    <string name="app_name">AWS</string>
+    <string name="app_name">AWS CSA</string>
 
     <!--  Dashboard String  -->
     <string name="take_assessment">Take Assessment</string>
     <string name="show_question">Show Questions</string>
     <string name="popular_category">Our popular category</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Take Assessment String -->
+    <string name="random_question">Random Question</string>
+    <string name="category_1">Category - 1</string>
+    <string name="category_2">Category - 2</string>
+    <string name="category_3">Category - 3</string>
+    <string name="category_4">Category - 4</string>
+    <string name="category_5">Category - 5</string>
+    <string name="category_6">Category - 6</string>
+    <string name="show_more">Show More</string>
+
+    <!-- Time and without time Activity String   -->
+    <string name="get_started">Get Started</string>
+    <string name="time">time based</string>
+    <string name="without_time">without time</string>
 
 </resources>

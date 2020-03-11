@@ -1,4 +1,4 @@
-package com.smarifrahman.aws;
+package com.smarifrahman.aws.ui.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,13 +8,16 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.smarifrahman.aws.R;
 import com.smarifrahman.aws.databinding.ActivityMainBinding;
 import com.smarifrahman.aws.ui.fragment.ShowQuestionsFragment;
 import com.smarifrahman.aws.ui.fragment.TakeAssessmentFragment;
 
-public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener,
+        View.OnClickListener {
     TakeAssessmentFragment takeAssessmentFragment;
     ShowQuestionsFragment showQuestionsFragment;
     ActivityMainBinding mainBinding;
@@ -52,5 +55,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             return true;
         }
         return false;
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
